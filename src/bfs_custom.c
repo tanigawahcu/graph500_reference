@@ -17,7 +17,8 @@
 unsigned long *visited;
 int64_t visited_size;
 
-int64_t *pred_glob,*column;
+int64_t *pred_glob;
+extern int64_t *column;
 int *rowstarts;
 oned_csr_graph g;
 
